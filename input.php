@@ -160,8 +160,7 @@ class Mahasiswa {
     <?php include "solusi.php";?>
     <div class="navbar">
         <ul>
-            <!-- <li><a href="#">Ora</a></li> -->
-            <li><a href="#form-input">Input Nilai</a></li>
+            <li><a href="">Input Nilai</a></li>
             <li><a href="tamble.php">Daftar Nilai</a></li>
         </ul>
     </div>

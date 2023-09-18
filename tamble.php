@@ -1,5 +1,5 @@
 <?php
-include "connectnilai.php";
+include "database_nilai.php";
 $database = new Database();
 $connection = $database->getConnection();
 
@@ -123,8 +123,7 @@ $query = $connection->query($sql);
         </div>
         
         <div class="btn-container">
-            <a href="index.php" class="btn-secondary">Kembali</a>
-
+            <a href="input.php" class="btn-secondary">Kembali</a>
         </div>
     </div>
 </body>
